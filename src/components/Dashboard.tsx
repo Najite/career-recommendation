@@ -166,7 +166,6 @@ export const Dashboard: React.FC<DashboardProps> = ({
                     <h4 className="font-semibold text-gray-900">Assessments</h4>
                     <Target className="h-5 w-5 text-blue-600" />
                   </div>
-                  <div className="text-2xl font-bold text-blue-600">2</div>
                   <div className="text-sm text-gray-600">Completed</div>
                 </div>
 
@@ -175,7 +174,6 @@ export const Dashboard: React.FC<DashboardProps> = ({
                     <h4 className="font-semibold text-gray-900">Recommendations</h4>
                     <TrendingUp className="h-5 w-5 text-green-600" />
                   </div>
-                  <div className="text-2xl font-bold text-green-600">5</div>
                   <div className="text-sm text-gray-600">Career paths</div>
                 </div>
 
@@ -184,7 +182,6 @@ export const Dashboard: React.FC<DashboardProps> = ({
                     <h4 className="font-semibold text-gray-900">Learning</h4>
                     <BookOpen className="h-5 w-5 text-purple-600" />
                   </div>
-                  <div className="text-2xl font-bold text-purple-600">12</div>
                   <div className="text-sm text-gray-600">Resources saved</div>
                 </div>
               </div>

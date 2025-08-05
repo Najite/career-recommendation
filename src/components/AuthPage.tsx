@@ -125,32 +125,7 @@ export const AuthPage: React.FC<AuthPageProps> = ({ onLogin, onBack }) => {
                 }
               </p>
             </div>
-
-            {/* Social Login */}
-            <div className="space-y-3 mb-6">
-              <button
-                onClick={() => handleSocialLogin('Google')}
-                disabled={isLoading}
-                className="w-full flex items-center justify-center space-x-3 py-3 px-4 border border-gray-300 rounded-xl hover:bg-gray-50 transition-colors disabled:opacity-50"
-              >
-                <div className="w-5 h-5 bg-red-500 rounded-full flex items-center justify-center text-white text-xs font-bold">
-                  G
-                </div>
-                <span className="text-gray-700">Continue with Google</span>
-              </button>
-              
-              <button
-                onClick={() => handleSocialLogin('Facebook')}
-                disabled={isLoading}
-                className="w-full flex items-center justify-center space-x-3 py-3 px-4 border border-gray-300 rounded-xl hover:bg-gray-50 transition-colors disabled:opacity-50"
-              >
-                <div className="w-5 h-5 bg-blue-600 rounded-full flex items-center justify-center text-white text-xs font-bold">
-                  f
-                </div>
-                <span className="text-gray-700">Continue with Facebook</span>
-              </button>
-            </div>
-
+           
             {/* Divider */}
             <div className="relative mb-6">
               <div className="absolute inset-0 flex items-center">
