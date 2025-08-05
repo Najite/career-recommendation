@@ -228,7 +228,6 @@ export const Results: React.FC<ResultsProps> = ({ answers, recommendations, onBa
                         
                         <div className="grid md:grid-cols-2 gap-4 mb-4">
                           <div className="flex items-center space-x-2">
-                            <DollarSign className="h-4 w-4 text-green-600" />
                             <span className="text-sm text-gray-700">{career.averageSalary}</span>
                           </div>
                           <div className="flex items-center space-x-2">
