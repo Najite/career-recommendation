@@ -5,6 +5,7 @@ import { databaseService } from './databaseService';
 
 const MOONSHOT_API_KEY = import.meta.env.VITE_MOONSHOT_API_KEY;
 const MOONSHOT_API_URL = 'https://openrouter.ai/api/v1/chat/completions';
+const MODEL = 'meta-llama/llama-4-maverick:free';
 
 interface MoonshotResponse {
   choices: {
@@ -34,7 +35,7 @@ class AIService {
       const response = await axios.post<MoonshotResponse>(
         MOONSHOT_API_URL,
         {
-          model: 'moonshotai/kimi-k2:free',
+          model: MODEL,
           messages: [
             {
               role: 'system',
