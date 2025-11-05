@@ -108,23 +108,23 @@ export const Dashboard: React.FC<DashboardProps> = ({
           </div>
 
           <div className="bg-white/60 backdrop-blur-sm rounded-2xl p-6 border border-gray-200/50 hover:shadow-lg transition-all duration-300">
-            <div className="flex items-center justify-between mb-4">
-              <div className="bg-green-100 w-12 h-12 rounded-xl flex items-center justify-center">
+            {/* <div className="flex items-center justify-between mb-4"> */}
+              {/* <div className="bg-green-100 w-12 h-12 rounded-xl flex items-center justify-center">
                 <Upload className="h-6 w-6 text-green-600" />
-              </div>
-              <span className="text-sm text-gray-500">Quick Start</span>
-            </div>
-            <h3 className="text-xl font-bold text-gray-900 mb-2">Upload Resume</h3>
-            <p className="text-gray-600 mb-4">
-              Upload your resume for instant AI-powered career analysis and recommendations.
-            </p>
-            <button
-              onClick={onUploadResume}
-              className="bg-gradient-to-r from-green-600 to-blue-600 text-white px-6 py-3 rounded-full font-medium hover:shadow-lg transition-all duration-300 transform hover:scale-105"
-            >
-              Upload Resume
-            </button>
-          </div>
+              </div> */}
+              {/* <span className="text-sm text-gray-500">Quick Start</span> */}
+            {/* </div> */}
+            {/* <h3 className="text-xl font-bold text-gray-900 mb-2">Upload Resume</h3> */}
+            {/* <p className="text-gray-600 mb-4"> */}
+              {/* Upload your resume for instant AI-powered career analysis and recommendations. */}
+            {/* </p> */}
+            {/* <button */}
+              {/* onClick={onUploadResume} */}
+              {/* className="bg-gradient-to-r from-green-600 to-blue-600 text-white px-6 py-3 rounded-full font-medium hover:shadow-lg transition-all duration-300 transform hover:scale-105" */}
+            {/* > */}
+              {/* Upload Resume */}
+            {/* </button> */}
+          {/* </div> */}
         </div>
 
         {/* Navigation Tabs */}
