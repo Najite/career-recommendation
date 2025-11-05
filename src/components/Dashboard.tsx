@@ -107,7 +107,7 @@ export const Dashboard: React.FC<DashboardProps> = ({
             </button>
           </div>
 
-          <div className="bg-white/60 backdrop-blur-sm rounded-2xl p-6 border border-gray-200/50 hover:shadow-lg transition-all duration-300">
+          {/* <div className="bg-white/60 backdrop-blur-sm rounded-2xl p-6 border border-gray-200/50 hover:shadow-lg transition-all duration-300"> */}
             {/* <div className="flex items-center justify-between mb-4"> */}
               {/* <div className="bg-green-100 w-12 h-12 rounded-xl flex items-center justify-center">
                 <Upload className="h-6 w-6 text-green-600" />
